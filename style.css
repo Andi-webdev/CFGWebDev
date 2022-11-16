@@ -1,0 +1,114 @@
+body {
+    font-family: "Optima", Calibri;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.7;
+    color: gray;
+  }
+
+.welcomeContainer {
+    border: 1px solid black;
+    color:black;
+    /* display: flex; */
+    height: 300px;
+    /* flex-wrap: wrap; */
+    text-align: center;
+    background-image: url("https://www.gradingjustice.org/wp-content/uploads/2021/04/5492-scaled-e1618493056977.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* .image-box{
+    background-image: url("https://www.gradingjustice.org/wp-content/uploads/2021/04/5492-scaled-e1618493056977.jpg");
+} */
+
+div ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+div ul li {
+    padding: 0.5rem;
+    text-align: left;
+}
+
+/* div ul li:hover {
+    background-color: grey;
+    color: white;
+} */
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.has-dropdown:hover .dropdown-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-btn{
+    background-color: mediumslateblue;
+    color: white;
+    border-radius: 5px;
+    padding: 0.2rem;
+    font-size: 12pt;
+}
+
+.navbtn{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px;
+    padding: 0.4rem;
+    font-size: 14pt;
+}
+
+
+input[type=submit]{
+    background-color: violet;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 0.4rem;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14pt;
+    align-self: center;
+
+}
+
+input[type=submit]:hover{
+    background-color: rgb(231, 159, 231);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 0.4rem;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14pt;
+    align-self: center;
+
+}
+
+.navbtn:hover {
+    background-color: rgb(162, 101, 218);
+    color: white;
+    border-radius: 5px;
+    padding: 0.2rem;
+    font-size: 14pt;
+}
+
+#squarePeg{
+    font-family: cursive;
+}
+
+footer{
+    position:absolute;
+    bottom:0px;
+}

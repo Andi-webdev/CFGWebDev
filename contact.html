@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <title>Web Development Project, Code First Girls</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet"/>
+
+</head>
+
+<body>
+    <div class="navigationBar">
+        <ul>
+            <li><a href=home.html class="navbtn">Home</a></li>
+            <li><a href=about.html class="navbtn">About</a></li>
+            <li class="has-dropdown">
+                <a href="javascript:void(0)" class="navbtn">Therapies</a>
+                <div class="dropdown-content">
+                    <a href="salt.html">Speech and Language Therapy</a>
+                    <a href="#">Psychotherapy</a>
+                    <a href="#">Art Therapy</a>
+                    <a href="#">Music Therapy</a>
+                    <a href="#">Physiotherapy</a>
+                    <a href="#">Occupational Therapy</a>
+                </div>
+            </li>
+            <li><a href=contact.html class="navbtn">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="image-box"></div>
+
+    <div class="contactContainer">
+        <div>
+            <h1 id="contact-box">Contact Us</h1>
+            <div></div>
+            <label for="name">Name: </label>
+            <input type="text" id="name" placeholder="John Smith">
+            <label for="email">Email: </label>
+            <input type="text" id="email" placeholder="j.smith@example.com">
+            <label for="tel">Telephone: </label>
+            <input type="text" id="tel" placeholder="01000 100100">
+            <label for="therapy">What type of therapy do you wish to enquire about?</label><br>
+            <input type="radio" name="therapy-type" id="salt">
+            <label for="salt">Speech and Language Therapy</label><br>
+            <input type="radio" name="therapy-type" id="psych">
+            <label for="psych">Psychotherapy</label><br>
+            <input type="radio" name="therapy-type" id="art">
+            <label for="art">Art Therapy</label><br>
+            <input type="radio" name="therapy-type" id="music">
+            <label for="music">Music Therapy</label><br>
+            <input type="radio" name="therapy-type" id="pt">
+            <label for="pt">Physiotherapy</label><br>
+            <input type="radio" name="therapy-type" id="ot">
+            <label for="ot">Occupational Therapy</label><br>
+            <input type="submit" value="Submit" id="submitbtn">
+        </div>
+        <!-- <img src="images/welcomeImage.jpg" width="50%" alt="Welcome Image"/> -->
+    </div>
+
+    <footer>
+        <a href="#" class="footer-btn">&copy; Copyright</a>
+    </footer>
+    
+</body>
+
+</html>
